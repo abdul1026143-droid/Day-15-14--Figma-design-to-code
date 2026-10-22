@@ -758,3 +758,17 @@ background-color: var(--green);
     font-size: x-small;
   }
 }
+
+
+
+.btndemo:hover,
+.btnwork:hover {
+    transform: translateY(-2px);
+    transition: transform 0.2s ease;
+}
+
+
+
+
+
+
