@@ -1,0 +1,760 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+:root{
+    --green:#2ABD83;
+    --poopin:'poppin', sans-serif;
+    --avie:'Sedgwick Ave', cursive;
+}
+body{
+   box-sizing: border-box; 
+   font-family: 'poppin', sans-serif;
+   /* font-family: 'Sedgwick Ave', cursive; */
+}
+.boxes{
+     background-image: url("Group 466.png");
+    width: 100%;
+    height:520px;
+    /* background : linear-gradient(to right, #0D1427,#103E3D,#103E3D); */
+    padding-top: 10px;
+    
+}
+.box1{
+    display: flex;
+    align-items:center ;
+    width:auto;
+    height: 40px;
+    border: #3B4F53;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 12px;
+    background-color: #0A1B22;
+    justify-content: space-between;
+    /* padding-top: 20px; */
+}
+.navbar{
+     display: flex;
+    text-decoration: none;
+    gap: 20px;
+    
+    }
+.navbar a{
+    
+         color: white;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+.booking{
+   background-color: var(--green);
+   border-radius: 5px;
+ justify-content: center;
+     align-items: center;
+    border: 1px solid var(--green);
+color: white;
+ width: 90px;
+    height: 25px;
+ margin-right: 12px;
+ font-size: 12px;
+
+    /* 
+    
+   
+   
+    /* padding: auto; */
+    /* padding-left: 9px;
+    padding-right: 2px;
+    padding-top: 6px;
+    
+     */ 
+      
+}
+.p1{
+    color: #fffefe;
+}
+.p2{
+    color:var(--green);
+}
+.whatsapp{
+  display: flex;
+    border-radius: 20px;
+    font-size: x-small;
+    width: 250px;
+    height: 20px;
+    background-color:rgba(24, 47, 54, 1);
+    color: white;
+    margin-top: 20px;
+    /* margin-left:20px ; */
+    gap: 5px;
+    /* margin-bottom: 15px; */
+    margin-top: 35px;
+     justify-content: center;
+     align-items: center;
+      /* padding-left: 9px;
+    padding-right: 2px; */
+    /* padding-top: 2px; */
+}
+
+
+
+.hero{
+    display: flex; 
+    flex-direction: row;
+    align-items: stretch;
+    /* align-items: center; */
+     margin-left: 30px;
+
+}
+.text{
+  /* margin-top: 17px; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* justify-content: center; */
+  box-sizing: border-box;
+    /* padding-top: 15px; */
+    /* margin-left: 30px; */
+    /* margin-top: 20px; */
+     color: white;
+     
+}
+.text h1{
+   
+   font-family: var(--poopin);
+   font-size:xx-large;
+}
+.greentext{
+    font-weight: 200;
+    color: var(--green);
+    font-family: var(--avie);
+}
+
+.p3,
+.p4{
+      font-family: var(--poopin); 
+      font-size: 14px;
+}
+
+.picture{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 300px; 
+     height: 500px; 
+    margin-left: 150px;
+    /* display: flex; */
+    align-items: center;
+    
+    justify-content: center;
+    /* margin-bottom: 50px; */
+
+}
+.picture img{
+border-radius: 20px;
+ width: 100%;
+    height: auto;
+
+}
+
+.secure-logo{
+  width: 15px;
+  height: 15px;
+}
+
+
+.btndemo{
+background-color: var(--green);
+   padding: 15px 30px;
+   border-radius: 10px;
+   color: white;
+   border: none;
+    cursor: pointer;
+}
+.btnwork{
+ color: white;
+ padding: 15px 30px;
+ border-radius: 10px;
+   border: none;
+   cursor: pointer;
+   background-color:transparent;
+   border: 1px solid white;
+}
+.h3{
+   color: var(--green);
+}
+.problem{
+  
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.theproblem{
+    color: var(--green);
+    font-size: small;
+}
+.problemboxex{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    gap: 20px;
+    
+}
+
+
+
+.svg-box {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.bg-svg {
+    width: 100%;
+    height: 100%;
+}
+
+.top-svg {
+    position:absolute;
+    width: 10px;
+    height: 10px;
+ top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+    z-index: 2;
+}
+
+/* .bg-svg1{
+  width: 20px;
+  height: 20px;
+  position: relative;
+  margin-bottom: 15px;
+    margin-top: 15px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .icon-box {
+  width: 30px;
+  height: 30px;
+  border-radius: 25%;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  background: linear-gradient(135deg, #34d399, #10b981);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+} */
+
+/* .icon-box svg {
+  width: 60%;
+  height: 60%;
+} */
+.pbox1{
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100px;
+    height: 150px;
+    padding-bottom: 16px;
+    padding-top: 5px;
+   border: 1px solid rgba(167, 222, 202, 1);
+    border-color: var(--green);
+    border-radius: 10px; 
+    /* font-size: 10px; */
+    box-shadow: 0px 8px 10px -5px rgba(149, 151, 150, 0.5);
+}
+.pbox2{
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 100px;
+    height: 150px;
+    padding-bottom: 16px;
+    padding-top: 5px;
+        border-radius: 10px; 
+    border:  1.5px solid rgb(241, 238, 238) ;
+}
+/* .icon-box-light {
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  padding: 4px;
+  border-radius: 25%;
+  background: #ecfdf5;
+  border: 1px solid #d1fae5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-bottom: 5px;
+
+} */
+
+/* .icon-box-light svg {
+  width: 100%;
+  height: 100%;
+} */
+.pbox3{
+       padding-left: 5px;
+    padding-right: 5px;
+    height: 100px;
+    height: 150px;
+    padding-bottom: 16px;
+    padding-top: 5px;
+        border-radius: 10px; 
+        /* font-size: 21px; */
+    border:  1.5px solid rgb(241, 238, 238) ;
+
+}
+
+/* Badge to heading */
+.whatsapp {
+  margin-bottom: 25px;
+}
+
+/* Heading */
+.text h1 {
+  font-size: 30px;
+  line-height: 1;
+  margin-bottom: 20px;      /* space between heading and first paragraph */
+}
+
+/* Paragraphs */
+.p3,
+.p4 {
+  font-size: 13px;
+  line-height: 1;
+  margin-bottom: 16px;      /* space between the two paragraphs */
+}
+
+/* Buttons */
+.buttons {
+  margin-top: 28px;         /* space above the buttons */
+  margin-bottom: 28px;      /* space below the buttons */
+}
+
+/* Trust line */
+.trust {
+  margin-top: 0;
+  display: flex;
+  gap: 5px;
+}
+
+/* .icon-light {
+  background: #ecfdf5;
+  border: 1px solid #d1fae5;
+} */
+
+
+
+
+
+
+.ptext{
+    color: rgba(0, 0, 0, 1);
+    font-size: 10px;
+    font-weight: 400;
+    font-style: Regular;
+    line-height: 12px;
+}
+.h3{
+  font-size: 15px;
+}
+
+.solution{
+    background-color: rgba(247, 249, 251, 1);
+    padding-top: 50px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+/* .grid-container{
+    display: grid;
+
+} */
+/* .card1{
+    display: grid;
+    grid-template-rows: ;
+} */
+
+
+
+
+
+
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);  
+  gap: 20px;
+  max-width: 1100px;
+  /* margin: 0 auto; */
+  padding: 20px;
+}
+
+.card {
+     padding-left: 17px;
+    padding-right: 5px;
+    padding-top: 20px; 
+  grid-column: span 2;                    
+  min-height: 150px;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+}
+
+.wide {
+    color: white;
+     padding-left: 17px;
+    padding-right: 5px;
+    padding-top: 20px; 
+  grid-column: span 4;                    
+   border-radius: 10px;   
+   background-color: rgba(23, 33, 50, 1);              
+  border-color: rgba(23, 33, 50, 1);
+}
+
+.gridtext{
+    color:white;
+}
+.grid-container .card:nth-child(2) {
+  box-shadow: 0 13px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================= TABLET (up to 992px) ================= */
+@media (max-width: 992px) {
+
+  .picture {
+    margin-left: 60px;
+  }
+
+  .problemboxex {
+    flex-wrap: wrap;                /* boxes drop to the next line if no space */
+  }
+
+  .pbox1,
+  .pbox2,
+  .pbox3 {
+    flex: 1 1 250px;
+    height: auto;
+    padding: 15px;
+  }
+
+  .solution {
+    margin-left: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .grid-container {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+.text {
+  max-width: 600px;
+}
+.text h1{
+  font-size: 40px;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.trust {
+  font-size: 13px;
+  color: #cbd5e1;
+  margin-top: 20px;
+}
+
+.trust i {
+  color: var(--green);
+  margin-right: 6px;
+}
+/* ================= MOBILE (up to 768px) ================= */
+@media (max-width: 768px) {
+
+  /* ---- Background ---- */
+  .boxes {
+    height: auto;
+    padding: 12px 0 0;
+    overflow: hidden;
+    background: linear-gradient(180deg, #0D1427, #103E3D);
+  }
+
+  /* ---- Nav bar ---- */
+  .box1 {
+    margin-top: 25px;
+    height: 42px;
+    margin: 0 16px;
+    padding: 0 10px 0 14px;
+    margin-top: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+  }
+
+  .navbar {
+    display: none;                  /* menu links hidden on mobile */
+  }
+
+  .booking {
+    width: 50px;
+    height: 20px;
+    margin-right: 0;
+    /* padding: 8px 12px; */
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+.svg-box {
+  margin-top: 14px;
+  width:32px;
+  height:32px;
+
+}
+
+.top-svg{
+  width: 18px;
+  height: 18px;
+}
+.bg-svg{
+  width:32px;
+  height:32px;
+}
+
+
+
+  /* ---- Pill badge ---- */
+  .whatsapp {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 18px;
+    /* margin: 22px 16px 0; */
+    /* margin-left: 10px; */
+    /* padding: 6px 12px; */
+    font-size: 10px;
+    color: #d1d5db;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  /* ---- Hero text ---- */
+  .hero {
+    margin: 0;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    flex-direction: column;
+  }
+
+  .text {
+     margin-left: 10px; 
+     margin-right: 10px;
+    max-width: 100%;
+    margin: 0;
+    padding: 16px 16px 0;
+  }
+
+  .text h1 {
+    font-size: 26px;
+    line-height: 1.25;
+    font-weight: 700;
+  }
+
+  .p3,
+  .p4 {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #cbd5e1;
+    margin-top: 1px;
+  }
+
+  /* ---- Buttons side by side ---- */
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     width: 100%;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    margin-top: 17px;
+    /* margin-bottom: 15px; */
+    padding-left: 0;
+    padding-right: 0;
+
+  }
+
+  .btndemo,
+  .btnwork {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: auto;
+    height: 16px;
+    margin: 0;
+    padding-left: 13px;
+    padding-right: 13px;
+    /* padding: 12px 10px; */
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 6px;
+      /* margin-bottom: 15px; */
+      white-space: nowrap;
+  }
+.trust{
+  margin-top: 0;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+  .btnwork {
+    background: transparent;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+  }
+
+  /* ---- Phone image ---- */
+  .picture {
+    width: auto;
+    height: auto;
+    margin: 0 0 40px 0;
+    /* object-fit: fill; */
+    /* margin-bottom: 40px; */
+
+    /* margin: 24px 0 0; */
+    /* align-items: center; */
+  }
+
+  .picture img {
+    display: block;
+    width: auto;
+    /* max-width: 340px; */
+    padding-bottom: 40px;
+    height: auto;
+    border-radius: 0;
+    object-fit: fill;
+  }
+
+
+  /* remove the forced line breaks so text wraps naturally */
+  .text h1 br,
+  .text p3 br,
+  .text p4 br {
+    display: none;
+  }
+
+
+
+  .picture {
+    /* width: calc(100% - 40px); */
+    height: auto;
+    /* margin-left: 20px; */
+    margin-bottom: 0;
+  }
+
+  .picture img {
+    width: 100%;
+  }
+
+  /* ---- Problem section ---- */
+  .problem {
+    padding: 30px 20px 0;
+  }
+
+  .problem h2 br,
+  .solution h2 br,
+  .ptext br {
+    display: none;
+  }
+
+  .problemboxex {
+    flex-direction: column;         /* stack the 3 boxes */
+  }
+
+  .pbox1,
+  .pbox2,
+  .pbox3 {
+    flex: none;
+    height: auto;
+    padding: 15px;
+  }
+
+  /* ---- Solution section ---- */
+  .solution {
+    margin-left: 0;
+    padding: 40px 20px;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;     /* one card per row */
+    max-width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .ptext{
+    margin-bottom: 10px ;
+  line-height: 20px;
+  }
+  .card,
+  .wide {
+    grid-column: 1 / -1;            /* every card takes the full width */
+    padding-right: 17px;
+    padding-bottom: 20px;
+  }
+}
+
+
+/* ================= SMALL PHONES (up to 480px) ================= */
+@media (max-width: 480px) {
+
+  .text h1 {
+    font-size: 24px;
+  }
+
+  .ptext {
+    font-size: 14px;
+  }
+
+  .booking {
+    width: 70px;
+    font-size: x-small;
+  }
+}
